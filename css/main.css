@@ -1,0 +1,15 @@
+.intro-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-size: 50px;
+}
+.sub-intro {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-size: 35px;
+    color: lightseagreen;
+    font-family: Consolas;
+}
+
