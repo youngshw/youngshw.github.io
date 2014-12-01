@@ -51,13 +51,32 @@ body {
 .carousel .item {
   height: 500px;
   background-color: #777;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*overflow: hidden;*/
 }
+
+.carousel .item#item_tommy {
+  background-image: url("../img/Tommy Trojan.jpg");
+}
+
+.carousel .item#item_teamwork {
+  background-image: url("../img/teamwork.jpg");
+}
+
+.carousel .item#item_future {
+  background-image: url("../img/FUTURE.jpg");
+}
+
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  min-height: 100%;
 }
 
 
