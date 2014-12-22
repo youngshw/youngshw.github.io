@@ -20,6 +20,11 @@ body {
   z-index: 20;
 }
 
+.navbar-inverse {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+}
+
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
@@ -29,6 +34,7 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 }
+
 .navbar-wrapper .navbar .container {
   width: auto;
 }
